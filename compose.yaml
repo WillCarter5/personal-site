@@ -23,8 +23,13 @@ services:
 
     command: tunnel --no-autoupdate run
 
+    dns:
+      - 1.1.1.1
+      - 1.0.0.1
+
     environment:
       TUNNEL_TOKEN: ${TUNNEL_TOKEN}
+      TUNNEL_TRANSPORT_PROTOCOL: http2
 
     networks:
       - web
