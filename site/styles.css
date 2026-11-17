@@ -329,7 +329,7 @@ html[data-home-theme='dark'] .simple-home {
     padding: 17px 10px 18px 0;
     border-bottom: 1px solid var(--home-rule);
     counter-increment: project-number;
-    text-align: justify;
+    text-align: left;
 }
 
 .home-projects li > div::before {
